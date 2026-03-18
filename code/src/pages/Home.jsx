@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import HowItWorks from './HowItWorks.png';
 import { FaMobileAlt, FaShieldAlt, FaChartLine, FaUsers, FaClock, FaCheckCircle } from 'react-icons/fa';
 
 export default function Home() {
@@ -56,8 +57,8 @@ export default function Home() {
               },
               {
                 icon: <FaShieldAlt className="text-5xl text-cyan-400" />,
-                title: 'Secure Transactions',
-                description: 'Bank-level security with encrypted payment processing and data protection'
+                title: 'Tamper-Proof Device Security',
+                description: 'Block factory resets and bypass attempts completely. Devices remain locked until dues are cleared.'
               },
               {
                 icon: <FaChartLine className="text-5xl text-cyan-400" />,
@@ -66,18 +67,18 @@ export default function Home() {
               },
               {
                 icon: <FaUsers className="text-5xl text-cyan-400" />,
-                title: 'Customer Support',
+                title: 'Always-On Customer Support',
                 description: '24/7 dedicated support team to assist you and your customers'
               },
               {
                 icon: <FaClock className="text-5xl text-cyan-400" />,
-                title: 'Quick Approval',
-                description: 'Fast application processing with instant approval decisions'
+                title: 'Instant Device Onboarding',
+                description: 'Add new devices in seconds with a simple QR scan. Manage everything from one clean dashboard.'
               },
               {
                 icon: <FaCheckCircle className="text-5xl text-cyan-400" />,
-                title: 'Flexible Terms',
-                description: 'Customizable payment plans to suit different customer needs'
+                title: 'Automated Payment Nudges',
+                description: 'Send smart, timely reminders that feel natural to customers.Reduce missed EMIs and improve repayment effortlessly.'
               }
             ].map((feature, index) => (
               <div
@@ -101,7 +102,7 @@ export default function Home() {
               { number: '50K+', label: 'Active Devices' },
               { number: '98%', label: 'Customer Satisfaction' },
               { number: '500+', label: 'Partner Retailers' },
-              { number: '$100M+', label: 'Financed Amount' }
+              { number: '76%', label: 'Drop in late payments' }
             ].map((stat, index) => (
               <div key={index} className="text-white">
                 <div className="text-5xl font-bold text-cyan-400 mb-2">{stat.number}</div>
@@ -122,7 +123,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <img
+            src={HowItWorks}
+            alt="How It Works"
+            className="w-full rounded-lg shadow-lg"
+          />
+
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 step: '01',
@@ -155,7 +162,7 @@ export default function Home() {
                 )}
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
