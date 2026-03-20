@@ -201,11 +201,10 @@ export default function Terms() {
               </p>
               <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
                 <p className="mb-2"><strong className="text-white">Email:</strong> legal@nexpay.com</p>
-                <p className="mb-2"><strong className="text-white">Phone:</strong> +1 (555) 123-4567</p>
-                <p><strong className="text-white">Address:</strong> 123 Finance Street, Business District, NY 10001</p>
+                <p className="mb-2"><strong className="text-white">Phone:</strong> +91 9109315673</p>
+                {/* <p><strong className="text-white">Address:</strong> 123 Finance Street, Business District, NY 10001</p> */}
               </div>
             </div>
-
           </div>
         </div>
       </section>

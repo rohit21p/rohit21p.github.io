@@ -174,7 +174,7 @@ export default function Apply() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full bg-gray-900 border border-gray-700 rounded-lg py-3 pl-12 pr-4 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 transition-colors"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+91 9109315673"
                     />
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import HowItWorks from './HowItWorks.png';
-import { FaMobileAlt, FaShieldAlt, FaChartLine, FaUsers, FaClock, FaCheckCircle } from 'react-icons/fa';
+import { FaLock, FaBell, FaBolt, FaDesktop, FaChartBar, FaShieldAlt } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -11,14 +11,14 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-              Smart Financing for the
+              Digital Lock Controller for
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                Digital Age
+                EMI Devices
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Empower your business with NexPay's innovative device financing solutions. 
-              Control EMI devices, reduce defaults, and accelerate growth.
+              Secure your Buy Now Pay Later business with NexPay's Digital Lock Controller (DLC). 
+              Remotely lock mobile and tablet devices when EMI payments are missed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -42,43 +42,43 @@ export default function Home() {
       <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">Why Choose NexPay?</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Why Choose NexPay DLC?</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              We provide comprehensive financing solutions tailored for modern businesses
+              Protect your Buy Now Pay Later business with advanced device locking technology
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: <FaMobileAlt className="text-5xl text-cyan-400" />,
-                title: 'Device Control',
-                description: 'Advanced remote device management and control features to protect your investment'
+                icon: <FaLock className="text-5xl text-cyan-400" />,
+                title: 'Remote Lock / Unlock',
+                description: 'Trigger locks and unlocks instantly from the cloud dashboard or via API. No manual intervention — seconds from click to action.'
+              },
+              {
+                icon: <FaBell className="text-5xl text-cyan-400" />,
+                title: 'Smart Payment Reminders',
+                description: 'AI-driven reminder engine across SMS, WhatsApp and voice calls. Configurable cadence before and after EMI due dates.'
+              },
+              {
+                icon: <FaBolt className="text-5xl text-cyan-400" />,
+                title: 'Unified API Integration',
+                description: 'One API endpoint for UPI AutoPay + eNACH/ECS collection combined with device locking. Single integration, end-to-end control.'
+              },
+              {
+                icon: <FaDesktop className="text-5xl text-cyan-400" />,
+                title: 'Cloud-Based Dashboard',
+                description: 'Manage every enrolled device across all locations from one web portal. Real-time device status, lock history, and payment events.'
+              },
+              {
+                icon: <FaChartBar className="text-5xl text-cyan-400" />,
+                title: 'MIS & Analytics',
+                description: 'Live tracking of payments, device status, collection rates and delinquency. Export-ready reports for your finance and risk teams.'
               },
               {
                 icon: <FaShieldAlt className="text-5xl text-cyan-400" />,
-                title: 'Tamper-Proof Device Security',
-                description: 'Block factory resets and bypass attempts completely. Devices remain locked until dues are cleared.'
-              },
-              {
-                icon: <FaChartLine className="text-5xl text-cyan-400" />,
-                title: 'Business Growth',
-                description: 'Scale your business faster with flexible financing options and analytics'
-              },
-              {
-                icon: <FaUsers className="text-5xl text-cyan-400" />,
-                title: 'Always-On Customer Support',
-                description: '24/7 dedicated support team to assist you and your customers'
-              },
-              {
-                icon: <FaClock className="text-5xl text-cyan-400" />,
-                title: 'Instant Device Onboarding',
-                description: 'Add new devices in seconds with a simple QR scan. Manage everything from one clean dashboard.'
-              },
-              {
-                icon: <FaCheckCircle className="text-5xl text-cyan-400" />,
-                title: 'Automated Payment Nudges',
-                description: 'Send smart, timely reminders that feel natural to customers.Reduce missed EMIs and improve repayment effortlessly.'
+                title: 'Google Policy Compliant',
+                description: 'Built to Google\'s Device Lock Controller policy. Fully compliant with Android Play Protect standards across all major OEMs.'
               }
             ].map((feature, index) => (
               <div
@@ -99,10 +99,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             {[
-              { number: '50K+', label: 'Active Devices' },
-              { number: '98%', label: 'Customer Satisfaction' },
-              { number: '500+', label: 'Partner Retailers' },
-              { number: '76%', label: 'Drop in late payments' }
+              { number: '50K+', label: 'Devices Under Lock Control' },
+              { number: '98%', label: 'Payment Recovery Rate' },
+              { number: '500+', label: 'BNPL Businesses Protected' },
+              { number: '85%', label: 'Reduction in Payment Defaults' }
             ].map((stat, index) => (
               <div key={index} className="text-white">
                 <div className="text-5xl font-bold text-cyan-400 mb-2">{stat.number}</div>
@@ -114,20 +114,62 @@ export default function Home() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* <section className="py-20 bg-gray-900"> */}
+        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">How It Works</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               Get started with NexPay in three simple steps
             </p>
-          </div>
+          </div> */}
 
-          <img
+          <section class="steps-section">
+  <div class="container">
+    {/* <h2 class="steps-title">
+      Four steps.<br /> */}
+    <h2 class="steps-title">How It Works<br />
+      <span>Just four steps</span>
+    </h2>
+
+    <p class="steps-subtitle">
+      From device sale to lock enforcement — the entire lifecycle managed in one platform.
+    </p>
+
+    <div class="steps-grid">
+      
+      <div class="step-card">
+        <div class="step-number">01</div>
+        <h3>Customer Selects Device</h3>
+        <p>Customer picks a smartphone and opts into an EMI or BNPL plan at your store.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">02</div>
+        <h3>Device Activated</h3>
+        <p>Device auto-registers with OEM-level locking software pre-installed.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">03</div>
+        <h3>Smart Reminders</h3>
+        <p>Automated reminders via SMS, WhatsApp & calls before and after due dates.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">04</div>
+        <h3>Lock / Unlock</h3>
+        <p>Missed payment? Device locks instantly. Paid? Unlock happens in seconds.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+          {/* <img
             src={HowItWorks}
             alt="How It Works"
             className="w-full rounded-lg shadow-lg"
-          />
+          /> */}
 
           {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -163,8 +205,8 @@ export default function Home() {
               </div>
             ))}
           </div> */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-cyan-600 to-blue-600">

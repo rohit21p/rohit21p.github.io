@@ -81,13 +81,13 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
+              {/* <li className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-cyan-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">123 Finance Street, Business District, NY 10001</span>
-              </li>
+              </li> */}
               <li className="flex items-center space-x-3">
                 <FaPhone className="text-cyan-400 flex-shrink-0" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 9109315673</span>
               </li>
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-cyan-400 flex-shrink-0" />

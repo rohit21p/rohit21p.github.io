@@ -94,7 +94,7 @@ export default function FAQ() {
         },
         {
           question: 'How do I contact support?',
-          answer: 'You can reach our support team at support@nexpay.com, call us at +1 (555) 123-4567, or use the live chat feature on our website. We typically respond within minutes during business hours.'
+          answer: 'You can reach our support team at support@nexpay.com, call us at +91 9109315673, or use the live chat feature on our website. We typically respond within minutes during business hours.'
         },
         {
           question: 'Do you offer training for my team?',
