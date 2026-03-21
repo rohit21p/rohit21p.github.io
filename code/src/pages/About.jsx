@@ -11,7 +11,7 @@ export default function About() {
               About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">NexPay</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Revolutionizing device financing with innovative technology and customer-first solutions
+              Securing Buy Now Pay Later businesses with Digital Lock Controller technology
             </p>
           </div>
         </div>
@@ -25,18 +25,18 @@ export default function About() {
               <h2 className="text-4xl font-bold text-white mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-300 text-lg">
                 <p>
-                  Founded in 2020, NexPay emerged from a simple observation: millions of people 
-                  wanted access to the latest mobile devices and electronics, but traditional 
-                  financing options were either unavailable or too restrictive.
+                  Founded in 2020, NexPay emerged from a critical challenge: Buy Now Pay Later businesses 
+                  were losing millions due to payment defaults and had no effective way to secure their 
+                  devices when customers stopped paying EMIs.
                 </p>
                 <p>
-                  We set out to change that by creating a platform that empowers retailers to 
-                  offer flexible financing options while protecting their investments through 
-                  smart device management technology.
+                  We developed the Digital Lock Controller (DLC) - a Google-compliant solution that allows 
+                  BNPL businesses to remotely lock mobile and tablet devices when payments are missed, 
+                  dramatically improving payment recovery rates.
                 </p>
                 <p>
-                  Today, we're proud to serve over 500 partner retailers and have helped finance 
-                  more than 50,000 devices, making technology accessible to everyone.
+                  Today, we protect over 500 BNPL businesses and have 50,000+ devices under lock control, 
+                  helping businesses recover payments and reduce defaults by 85%.
                 </p>
               </div>
             </div>
@@ -74,9 +74,9 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-400">
-                To democratize access to technology by providing innovative financing solutions 
-                that benefit both retailers and consumers, while maintaining the highest standards 
-                of security and service.
+                To protect Buy Now Pay Later businesses from payment defaults by providing the most 
+                advanced Digital Lock Controller technology, ensuring secure device management and 
+                maximizing payment recovery rates.
               </p>
             </div>
 
@@ -86,9 +86,9 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-400">
-                To become the leading device financing platform globally, recognized for our 
-                innovation, reliability, and commitment to making technology accessible to everyone, 
-                everywhere.
+                To become the global standard for device lock control in the BNPL industry, 
+                recognized for our Google-compliant technology, instant lock/unlock capabilities, 
+                and industry-leading payment recovery rates.
               </p>
             </div>
 
@@ -98,9 +98,9 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Our Values</h3>
               <p className="text-gray-400">
-                Integrity, innovation, and customer success drive everything we do. We believe in 
-                transparent practices, continuous improvement, and building lasting relationships 
-                with our partners.
+                Security, compliance, and business protection drive everything we do. We believe in 
+                Google-compliant solutions, instant response times, and empowering BNPL businesses 
+                to operate with confidence.
               </p>
             </div>
           </div>
@@ -111,37 +111,37 @@ export default function About() {
       <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">Why Partner With Us?</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Why Choose NexPay DLC?</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              We're more than just a financing platform - we're your growth partner
+              We're more than just a lock controller - we're your payment recovery partner
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: 'Advanced Technology',
-                description: 'State-of-the-art device management and payment processing systems'
+                title: 'Google Policy Compliant',
+                description: 'Fully compliant with Android Play Protect and OEM standards'
               },
               {
-                title: 'Risk Management',
-                description: 'Comprehensive tools to minimize defaults and protect your business'
+                title: 'Instant Lock/Unlock',
+                description: 'Trigger device locks in seconds via dashboard or API'
               },
               {
-                title: 'Flexible Solutions',
-                description: 'Customizable financing options to meet diverse customer needs'
+                title: 'Cloud-Based Control',
+                description: 'Manage all devices from one centralized web portal'
               },
               {
-                title: 'Expert Support',
-                description: 'Dedicated team available 24/7 to assist you and your customers'
+                title: '24/7 Monitoring',
+                description: 'Real-time device status, payment tracking, and lock history'
               },
               {
-                title: 'Fast Integration',
-                description: 'Quick and easy setup process to get you started in no time'
+                title: 'API Integration',
+                description: 'Single API for UPI AutoPay, eNACH/ECS, and device locking'
               },
               {
-                title: 'Competitive Rates',
-                description: 'Industry-leading rates and transparent pricing with no hidden fees'
+                title: '85% Default Reduction',
+                description: 'Proven track record of reducing payment defaults significantly'
               }
             ].map((item, index) => (
               <div
@@ -166,14 +166,14 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Our Team</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-            We're a diverse team of finance experts, technologists, and customer service 
-            professionals united by a common goal: making device financing simple, secure, 
-            and accessible for everyone.
+            We're a team of security experts, Android developers, and BNPL specialists 
+            united by a common goal: protecting businesses from payment defaults through 
+            cutting-edge device lock technology.
           </p>
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
             <p className="text-gray-200 text-lg italic">
-              "Our team brings together decades of experience in fintech, retail, and technology 
-              to create solutions that truly make a difference in people's lives."
+              "Our team combines deep expertise in Android security, payment systems, and BNPL 
+              operations to deliver the most reliable Digital Lock Controller in the industry."
             </p>
             <p className="text-cyan-400 font-semibold mt-4">- NexPay Leadership Team</p>
           </div>
