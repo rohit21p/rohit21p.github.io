@@ -137,7 +137,7 @@ export default function About() {
               },
               {
                 title: 'API Integration',
-                description: 'Single API for UPI AutoPay, eNACH/ECS, and device locking'
+                description: 'Single API for device locking + unlocking + tracking'
               },
               {
                 title: '85% Default Reduction',

@@ -5,104 +5,116 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    {
-      category: 'General',
-      questions: [
-        {
-          question: 'What is NexPay?',
-          answer: 'NexPay is a comprehensive device financing platform that enables retailers to offer flexible payment plans to their customers. We provide device management, payment processing, and risk mitigation tools to help businesses grow while protecting their investments.'
-        },
-        {
-          question: 'How does NexPay work?',
-          answer: 'NexPay works in three simple steps: 1) Retailers apply and get approved for our platform, 2) They offer financing options to their customers at the point of sale, 3) We handle payment collection, device management, and provide analytics to help grow the business.'
-        },
-        {
-          question: 'Who can use NexPay?',
-          answer: 'NexPay is designed for retailers, distributors, and businesses that sell mobile devices, electronics, and other high-value items. Whether you\'re a small shop or a large chain, our platform scales to meet your needs.'
-        }
-      ]
-    },
-    {
-      category: 'For Retailers',
-      questions: [
-        {
-          question: 'How do I become a NexPay partner?',
-          answer: 'Simply fill out our online application form with your business details. Our team will review your application and typically provide approval within 24-48 hours. Once approved, we\'ll help you set up your account and train your team.'
-        },
-        {
-          question: 'What are the fees for retailers?',
-          answer: 'We offer transparent, competitive pricing with no hidden fees. Our fee structure is based on transaction volume and the services you choose. Contact our sales team for a customized quote based on your business needs.'
-        },
-        {
-          question: 'How quickly can I start offering financing?',
-          answer: 'Once approved, you can start offering financing to your customers within 24 hours. We provide quick onboarding, training materials, and dedicated support to get you up and running fast.'
-        },
-        {
-          question: 'What happens if a customer defaults on payment?',
-          answer: 'Our platform includes built-in risk mitigation tools including remote device locking, automated payment reminders, and collection support. We work with you to minimize defaults and handle difficult situations professionally.'
-        }
-      ]
-    },
-    {
-      category: 'For Customers',
-      questions: [
-        {
-          question: 'What documents do I need to apply for financing?',
-          answer: 'Customers typically need a valid ID, proof of income, and contact information. The exact requirements may vary based on the financing amount and plan selected. Our application process is quick and straightforward.'
-        },
-        {
-          question: 'How long does approval take?',
-          answer: 'Most applications are approved instantly. In some cases, additional verification may be required, which typically takes 1-2 business days. You\'ll be notified immediately of your approval status.'
-        },
-        {
-          question: 'Can I pay off my device early?',
-          answer: 'Yes! We encourage early payment and offer discounts for customers who pay off their devices ahead of schedule. There are no prepayment penalties.'
-        },
-        {
-          question: 'What payment methods are accepted?',
-          answer: 'We accept various payment methods including bank transfers, debit cards, credit cards, and digital wallets. Automatic payment options are also available for your convenience.'
-        }
-      ]
-    },
-    {
-      category: 'Technical',
-      questions: [
-        {
-          question: 'How does device locking work?',
-          answer: 'Our device management system can remotely lock devices if payments are missed. This is done through secure software that doesn\'t affect the device\'s data. Once payment is received, the device is unlocked immediately.'
-        },
-        {
-          question: 'Is my data secure?',
-          answer: 'Absolutely. We use bank-level encryption and comply with all major data protection regulations including GDPR and PCI DSS. Your data is stored securely and never shared with third parties without consent.'
-        },
-        {
-          question: 'Can I integrate NexPay with my existing systems?',
-          answer: 'Yes! We offer comprehensive API integration that works with most POS systems, inventory management software, and accounting platforms. Our technical team will assist with the integration process.'
-        },
-        {
-          question: 'What devices are compatible with NexPay?',
-          answer: 'NexPay supports all major smartphone brands (iOS and Android), tablets, laptops, and many other electronic devices. Contact us for specific device compatibility questions.'
-        }
-      ]
-    },
-    {
-      category: 'Support',
-      questions: [
-        {
-          question: 'What kind of support do you offer?',
-          answer: 'We provide 24/7 customer support via phone, email, and live chat. Retailers also get access to a dedicated account manager, training resources, and a comprehensive knowledge base.'
-        },
-        {
-          question: 'How do I contact support?',
-          answer: 'You can reach our support team at support@nexpay.com, call us at +91 9109315673, or use the live chat feature on our website. We typically respond within minutes during business hours.'
-        },
-        {
-          question: 'Do you offer training for my team?',
-          answer: 'Yes! We provide comprehensive onboarding training for all new partners, including video tutorials, documentation, and live training sessions. Ongoing training is also available as needed.'
-        }
-      ]
-    }
-  ];
+  {
+    "category": "General",
+    "questions": [
+      {
+        "question": "What is NexPay Digital Lock Controller (DLC)?",
+        "answer": "NexPay DLC is a Google-compliant device lock control system for Buy Now Pay Later (BNPL) businesses. It allows retailers to remotely restrict access to financed devices when customers miss payments, helping improve recovery and reduce defaults."
+      },
+      {
+        "question": "How does NexPay DLC work?",
+        "answer": "NexPay integrates directly with the Android OS, so no app installation is required. If a payment is missed, the retailer can lock the device via dashboard or API and unlock it after verifying payment."
+      },
+      {
+        "question": "Who can use NexPay DLC?",
+        "answer": "NexPay DLC is designed for BNPL businesses, mobile retailers, and device financing companies offering EMI-based purchases at any scale."
+      }
+    ]
+  },
+  {
+    "category": "For BNPL Businesses",
+    "questions": [
+      {
+        "question": "How do I get started with NexPay DLC?",
+        "answer": "Simply contact our team through the website or call +91 9109315673. We will schedule a demo, understand your needs, and help integrate DLC into your existing workflow. Setup typically takes 2–3 days."
+      },
+      {
+        "question": "What are the pricing and fees?",
+        "answer": "Pricing depends on the number of devices and features required. We offer transparent, volume-based pricing with no hidden charges."
+      },
+      {
+        "question": "How quickly can devices be locked?",
+        "answer": "Device locking happens instantly within seconds of triggering the command from the dashboard or API."
+      },
+      {
+        "question": "How does unlocking work?",
+        "answer": "Unlocking is performed manually via dashboard or the API by retailer after confirming payment with the customer."
+      },
+      {
+        "question": "Does NexPay handle payment collection or reminders?",
+        "answer": "Nexpay only handles payment reminders. It does not handle payments collections. Payment collections are managed directly between the retailer and the customer."
+      },
+      {
+        "question": "What happens if a customer defaults on payment?",
+        "answer": "If a customer misses a payment, the retailer can restrict access to the device using NexPay DLC until the dues are cleared."
+      }
+    ]
+  },
+  {
+    "category": "For Customers",
+    "questions": [
+      {
+        "question": "Why is my device locked?",
+        "answer": "Your device has been restricted by your retailer due to a missed EMI payment. Please contact them to resolve the issue."
+      },
+      {
+        "question": "How do I unlock my device?",
+        "answer": "Once you clear your dues with the retailer, they will unlock your device manually."
+      },
+      {
+        "question": "Will my data be deleted when the device is locked?",
+        "answer": "No. Your data remains completely safe. The lock only restricts access to the device, not your personal files."
+      },
+      {
+        "question": "What payment methods can I use to unlock my device?",
+        "answer": "Payment methods are decided by your retailer. NexPay is not involved in the payment process."
+      }
+    ]
+  },
+  {
+    "category": "Technical",
+    "questions": [
+      {
+        "question": "How does the device locking technology work?",
+        "answer": "NexPay integrates at the Android OS level using Google-compliant mechanisms. When locked, the device remains restricted even after factory reset or SIM change. Only emergency calls and basic settings are accessible."
+      },
+      {
+        "question": "Is NexPay DLC Google Play Protect compliant?",
+        "answer": "Yes. NexPay DLC follows Google’s Device Lock Controller policies and Android compliance standards."
+      },
+      {
+        "question": "Can I integrate NexPay DLC with my existing systems?",
+        "answer": "Yes. NexPay provides APIs for seamless integration with your internal systems and workflows."
+      },
+      {
+        "question": "What devices are compatible with NexPay DLC?",
+        "answer": "NexPay supports most Android smartphones and tablets across major brands. Compatibility may vary depending on device model and OS version."
+      }
+    ]
+  },
+  {
+    "category": "Support & Security",
+    "questions": [
+      {
+        "question": "What kind of support do you offer?",
+        "answer": "We provide dedicated support, onboarding assistance, and technical guidance for all clients."
+      },
+      {
+        "question": "How do I contact support?",
+        "answer": "You can reach our support team at support@nexpay.com, call +91 9109315673, or use the live chat feature on our website."
+      },
+      {
+        "question": "Is customer data secure with NexPay DLC?",
+        "answer": "Yes. NexPay does not access or manage user data. We only control device accessibility."
+      },
+      {
+        "question": "Can customers bypass the device lock?",
+        "answer": "No. The device remains restricted even after factory reset or SIM change and can only be unlocked by the retailer through the authorized system."
+      }
+    ]
+  }
+];
 
   const toggleQuestion = (categoryIndex, questionIndex) => {
     const index = `${categoryIndex}-${questionIndex}`;
@@ -119,7 +131,7 @@ export default function FAQ() {
               Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Questions</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Find answers to common questions about NexPay and our services
+              Find answers to common questions about NexPay Digital Lock Controller
             </p>
           </div>
         </div>

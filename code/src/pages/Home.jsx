@@ -63,7 +63,7 @@ export default function Home() {
               {
                 icon: <FaBolt className="text-5xl text-cyan-400" />,
                 title: 'Unified API Integration',
-                description: 'One API endpoint for UPI AutoPay + eNACH/ECS collection combined with device locking. Single integration, end-to-end control.'
+                description: 'One API for device locking + unlocking + tracking. Single integration, end-to-end control.'
               },
               {
                 icon: <FaDesktop className="text-5xl text-cyan-400" />,
